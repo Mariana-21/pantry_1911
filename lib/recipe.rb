@@ -22,6 +22,7 @@ class Recipe
     end
 
     def total_calories
+        require"pry"; binding.pry
         @ingredients_required[ingredient] 
     end
 end

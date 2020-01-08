@@ -54,7 +54,7 @@ class RecipeTest < Minitest::Test
     end
 
     def test_it_can_find_total_calories
-        skip
+        
         ingredient1 = Ingredient.new("Cheese", "C", 100)
         ingredient2 = Ingredient.new("Macaroni", "oz", 30)
         recipe = Recipe.new("Mac and Cheese")
